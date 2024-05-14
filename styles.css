@@ -1,21 +1,39 @@
-body{
-    background-color: white;
-    font-family: 'Courier New', Courier, monospace;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-h1{
-    font-size: 35px;
-}
-img{
-    display: block;
+    body{
+        background-color: rgb(162, 14, 221);
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        
 
-}
-span{
-    font-weight: bold;
-    font-size: 40px;
+    }
+    img{
+        display: block;
+
+    }
+    span{
+        font-weight: bold;
+        font-size: 40px;
+    }
+   button{
+    font-size: 20px; /* Aumenta o tamanho do texto do botão */
+    padding: 15px 30px; /* Aumenta o espaço interno do botão */
+    width: 200px; /* Define uma largura fixa para o botão */
+    height: 60px; /* Define uma altura fixa para o botão */
+    background-color: #534caf; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+    cursor: pointer; 
+   }
+   button:hover {
+    background-color: #302031a4; /* Cor de fundo quando o botão é hover */
 }
