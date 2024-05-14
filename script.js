@@ -11,3 +11,10 @@ document.addEventListener('DOMContentLoaded',function(){
         setInterval(mudarXingamento,1000);
 
 });
+function redirecionar() {
+    window.location.href = "https://sacanagem.vercel.app";
+}
+function redirecionar2(){
+    window.location.href = "https://sacanagem.vercel.app/EuSouGay.html"
+
+}
