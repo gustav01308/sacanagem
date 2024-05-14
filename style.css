@@ -1,5 +1,5 @@
   body{
-        background-color: white(162, 14, 221);
+        background-color:beige;
         font-family: 'Courier New', Courier, monospace;
         display: flex;
         flex-direction: column;
@@ -13,12 +13,17 @@
         padding: 15px 30px; /* Aumenta o espaço interno do botão */
         width: 200px; /* Define uma largura fixa para o botão */
         height: 60px; /* Define uma altura fixa para o botão */
-        background-color: #534caf; /* Cor de fundo */
+        background-color: #73ff00; /* Cor de fundo */
         color: white; /* Cor do texto */
         border: none; /* Remove a borda padrão */
         border-radius: 5px; /* Adiciona cantos arredondados */
         cursor: pointer; 
+        margin-top: 30px; 
        }
        button:hover {
-        background-color: #302031a4; /* Cor de fundo quando o botão é hover */
+        background-color: #ff1100; /* Cor de fundo quando o botão é hover */
+    }
+    h1{
+        font-size: 45px;
+        font-weight: bold;
     }
